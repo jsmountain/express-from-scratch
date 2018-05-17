@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=devide-width, initial-scale=1">
+
+  <title>Success Page</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+	 <!-- navbar -->
+  <nav class="navbar  navbar-inverse navbar-fixed-top"> <!-- nav tetap diam diatas -->
+    <div class="container-fluit">
+      <!-- membuat branch pada website atau nama website -->
+      <div class="navbar-header">
+        <!-- membuat button klik pada hp -->
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!--Akhir membuat button klik pada hp -->
+        <a href="#home" class="navbar-brand page-scroll" >Elfin Sanjaya</a>
+      </div>  
+      <!-- membuat branch pada website atau nama website -->
+
+       <!-- Collect the nav links, forms, and other content for toggling  agas bisa dibuka kedalam hp-->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/" class="page-scroll">Home</a></li>
+          <li><a href="/post" class="page-scroll">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+  <!-- akhir navbar -->
+	<div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2>Success Page</h2>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+       <h1>saya adalah <b><%= data.nama %></b> saya memiliki email <b><%= data.email%></b> teman-teman bisa menghubungi saya dengan nomor telepon saya <b><%= data.telpon %></b></h1>
+   		</div>
+	 </div>
+  	</div>
+ <%- include ../templates/footer.ejs %>

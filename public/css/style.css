@@ -1,0 +1,33 @@
+html {
+	position: relative;
+}
+
+body {
+	margin-bottom: 120px;
+	margin-top: 30px;
+}
+
+.jumbotron img{
+	width: 250px;
+	border: 5px solid #666;
+} 
+
+
+.footer {
+	position: absolute;
+	bottom: 0; 
+	height: 120px;
+	width: 100%;
+	background-color: #333;
+	padding-top: 30px;
+}
+
+.footer p{
+	color: #aaa;
+	font-size: 1em;
+
+}
+
+.footer i{
+	color: salmon;
+}
