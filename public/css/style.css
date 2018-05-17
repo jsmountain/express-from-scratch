@@ -3,31 +3,15 @@ html {
 }
 
 body {
-	margin-bottom: 120px;/*samain dengan footer nya supaya dibawah*/
+	margin-bottom: 120px;
 	margin-top: 30px;
 }
 
 .jumbotron img{
-	width: 200px;
+	width: 250px;
 	border: 5px solid #666;
 } 
 
-hr{
-	width: 250px;
-	border-top:  3px solid #999; 
-}
-
-section {
-	min-height: 600px;
-}
-
-.portfolio {
-	background-color: #eee;
-}
-
-.contact {
-	min-height: 800px; /* memberikan jarak antar contact dan footer */
-}
 
 .footer {
 	position: absolute;
@@ -47,8 +31,3 @@ section {
 .footer i{
 	color: salmon;
 }
-
-/*membuat transparan*/
-/*.navbar {
-	opacity: .3;
-}*/
