@@ -29,14 +29,9 @@ app.post('/post', (req, res) => {
   	data: req.body
   });
 });
+const port = process.env.PORT || 4000;
 
-/*app.get('/echo',(req, res) => {
-	res.render('post')
+app.listen(port, function() {
+	console.log(`Server Start on ${port}`);
 })
-
-app.post('/echo',(req, res) => {
-	res.render('post')
-})*/
-//app.get('/', (req, res) => res.send('Hello Express!'))
-//app.get('/about', (req, res) => res.send('Express is Express'))
-app.listen(5432, () => console.log('Server Success berjalan di http://localhost:5432'))
+//app.listen(5432, () => console.log('Server Success berjalan di http://localhost:5432'))
