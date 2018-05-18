@@ -1,0 +1,21 @@
+<%- include ../templates/header.ejs %>
+  <div class="container">
+
+    <br>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="/contact">Kontak</a></li>
+      <li class="breadcrumb-item active">Kontak-Sukses</li>
+    </ol>
+    <form action="/contact" method="get">
+        <h3>Biodata Anda</h3>
+        <p>Nama : <%= data.name %></p>
+        <p>Pendidikan Awal : <%= data.minEducation %></p>
+        <p>Pendidikan Akhir : <%= data.maxEducation %></p>
+        <button type="submit" class="btn btn-primary">Kembali</button>
+    </form>
+    </div>
+
+  </div>
+
+  <%- include ../templates/footer.ejs %>
